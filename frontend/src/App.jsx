@@ -6,13 +6,13 @@ import './App.css';
 import Login from "./pages/login";
 
 
-import React from 'react';
-import emailform from './emailform';
-import './App.css';
+//import React from 'react';
+//import emailform from './emailform';
+//import './App.css';
 
 
 
-/*function App() {
+function App() {
   return (
     <>
       
@@ -25,9 +25,9 @@ import './App.css';
       
     </>
   )
-}*/
+}
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -36,7 +36,7 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 
 export default App;
