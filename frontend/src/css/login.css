@@ -55,7 +55,7 @@ label {
 input[type="email"],
 input[type="password"],
 input[type="number"] {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: rgba(139, 134, 188, 0.877);
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -65,10 +65,10 @@ input[type="number"] {
 
 button[type="submit"] {
   background-color: #00d1ff;
-  color: white;
+  color: rgb(29, 40, 92);
   padding: 10px 20px;
   border: none;
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: rgb(64, 51, 122);
   border-radius: 5px;
   cursor: pointer;
 }
