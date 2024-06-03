@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import Login from "./pages/login";
+import ForgotPassword from './pages/ForgotPassword';
 
 
 //import React from 'react';
@@ -14,16 +15,17 @@ import Login from "./pages/login";
 
 function App() {
   return (
-    <>
+    
       
         <BrowserRouter>
           <Routes> 
             <Route path="/" element={<Login />} />
+            <Route path="/forgot-password" element={<ForgotPassword/>} />
             
           </Routes>
         </BrowserRouter>
       
-    </>
+    
   )
 }
 
