@@ -7,9 +7,7 @@ import Login from "./pages/login";
 import ForgotPassword from './pages/ForgotPassword';
 
 
-//import React from 'react';
-//import emailform from './emailform';
-//import './App.css';
+
 
 
 
